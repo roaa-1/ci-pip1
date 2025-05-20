@@ -3,7 +3,7 @@ import pytest
 from mycode import add_numbers
 
 def test_add_positive():
-    assert add_numbers(1, 4) == 3
+    assert add_numbers(1, 4) == 5
 
 def test_add_zero():
     assert add_numbers(1, 0) == 1
